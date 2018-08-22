@@ -9,7 +9,17 @@
       "installRoot": "${projectDir}\\Win32\\CMakeBuilds\\${name}",
       "cmakeCommandArgs": "",
       "buildCommandArgs": "-v",
-      "ctestCommandArgs": ""
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "LIBSRTP_LIBRARY_DIR",
+          "value": "${projectDir}\\..\\libsrtp\\Debug\\srtp.lib"
+        },
+        {
+          "name": "LIBSRTP_INCLUDE_DIR",
+          "value": "${projectDir}\\libsrtp_include"
+        }
+      ]
     },
     {
       "name": "x86-Release",
@@ -20,7 +30,17 @@
       "installRoot": "${projectDir}\\Win32\\CMakeBuilds\\${name}",
       "cmakeCommandArgs": "",
       "buildCommandArgs": "-v",
-      "ctestCommandArgs": ""
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "LIBSRTP_LIBRARY_DIR",
+          "value": "${projectDir}\\..\\libsrtp\\Release\\srtp.lib"
+        },
+        {
+          "name": "LIBSRTP_INCLUDE_DIR",
+          "value": "${projectDir}\\libsrtp_include"
+        }
+      ]
     },
     {
       "name": "x64-Debug",
@@ -31,7 +51,17 @@
       "installRoot": "${projectDir}\\Win32\\CMakeBuilds\\${name}",
       "cmakeCommandArgs": "",
       "buildCommandArgs": "-v",
-      "ctestCommandArgs": ""
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "LIBSRTP_LIBRARY_DIR",
+          "value": "${projectDir}\\..\\libsrtp\\x64\\Debug\\srtp.lib"
+        },
+        {
+          "name": "LIBSRTP_INCLUDE_DIR",
+          "value": "${projectDir}\\libsrtp_include"
+        }
+      ]
     },
     {
       "name": "x64-Release",
@@ -42,7 +72,17 @@
       "installRoot": "${projectDir}\\Win32\\CMakeBuilds\\${name}",
       "cmakeCommandArgs": "",
       "buildCommandArgs": "-v",
-      "ctestCommandArgs": ""
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "LIBSRTP_LIBRARY_DIR",
+          "value": "${projectDir}\\..\\libsrtp\\x64\\Release\\srtp.lib"
+        },
+        {
+          "name": "LIBSRTP_INCLUDE_DIR",
+          "value": "${projectDir}\\libsrtp_include"
+        }
+      ]
     },
     {
       "name": "Linux-Debug",
